@@ -25,8 +25,32 @@ You can run this data pipeline using GitHub codespaces. Follow the instructions 
 
 **Note**: The screenshots show how to run a project on codespaces, please make sure to use the instructions above for this specific project.
 
+1. Create Codespaces:
+- Fork the bitcoinMonitor repository.
+- Click on the Create codespaces on main button.
 ![codespaces start](./assets/images/cs1.png)
+
+2. Start the Pipeline:
+- Wait for Codespaces to start.
+- In the terminal, type:
+
+```bash
+make up
+
+```
+
 ![codespaces make up](./assets/images/cs2.png)
+
+-  Wait for make up to complete and then wait for 30 seconds to allow Metabase to set up.
+
+3. Access Metabase UI:
+- Go to the ports tab and click on the link exposing port 3000.
+- Use the following credentials to log in:
+      - Username: sdeuser
+      - Password: sdepassword1234
+
+- Refer to the Metabase connection settings screenshot for more details.
+
 ![codespaces open url](./assets/images/cs3.png)
 
 **Metabase connection settings:**
