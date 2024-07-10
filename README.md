@@ -48,6 +48,7 @@ make up
 - Use the following credentials to log in:
   
    Username: sdeuser
+  
    Password: sdepassword1234
 
 - Refer to the Metabase connection settings screenshot for more details.
