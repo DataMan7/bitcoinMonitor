@@ -47,8 +47,8 @@ make up
 - Go to the ports tab and click on the link exposing port 3000.
 - Use the following credentials to log in:
   
-      - Username: sdeuser
-      - Password: sdepassword1234
+   Username: sdeuser
+   Password: sdepassword1234
 
 - Refer to the Metabase connection settings screenshot for more details.
 
